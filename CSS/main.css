@@ -1,0 +1,124 @@
+.navbar {background: #f97300;}
+.nav-link, .navbar-brand { color:#f4f4f4; cursor: pointer }
+.nav-link { margin-right: 1em !important;  }
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
+
+/*header style*/
+.header{
+    background-image: url('/Users/kareemmagdy/Desktop/Projects/landing-page/images/headerback.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+        position: abolute;
+
+   }
+
+
+.overlay{
+ position: relative;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1 {
+    color:#F97300 ;
+}
+
+.description p {
+    color:#666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #f97300;
+    background: #f97300;
+    color: #fff;
+}
+
+
+.about{
+    margin: 10em 0;
+    padding: 1em;
+    margin: auto;
+    margin-top: 100px;
+       }
+
+   .about h1{
+    color:#F97300;
+    margin: 2em;
+}
+   .about img{
+    height: 295px;
+       width: 285px;
+       border-radius: 50%; 
+       position: relative;
+      
+   }
+
+
+   .profile-img { display:flex;
+    justify-content: center;
+
+   }
+
+   .about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 256px;
+    top: 300px;
+
+   }
+   .about .desc{
+    padding: 2em;
+    border-left:4px solid #10828C;
+   }
+   .about .desc h3{
+    color: #10828C;
+   }
+   .about .desc p{
+    line-height:2;
+    color:#888;
+   }
+
+   /*Portfolio*/
+/*Portfolio*/
+.portfolio{
+    margin: 5em 0;
+   }
+
+   .portfolio h1{
+    color:#F97300;
+    margin: 2em; 
+   }
+   .portfolio img{
+     height: 15rem;
+     width: 100%;
+     margin: 1em;
+     
+   }
+
+
+.img-fluid:hover { 
+    border: 3px solid #f97300;
+    margin: -1px;
+}
+
+
+.container h4 {
+    color:#f97300
+}
